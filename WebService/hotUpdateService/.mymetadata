@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="hotUpdateService"
+  id="myeclipse.1482977539064"
+  context-root="/hotUpdateService"
+  j2ee-spec="6.0"
+  archive="hotUpdateService.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

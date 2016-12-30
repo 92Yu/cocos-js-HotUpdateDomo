@@ -1,0 +1,43 @@
+{ 
+    "packageUrl" : "http://192.168.3.139:8080/hotUpdateService/res/", 
+    "remoteManifestUrl" : "http://192.168.3.139:8080/hotUpdateService/res/project.manifest", 
+    "remoteVersionUrl" : "http://192.168.3.139:8080/hotUpdateService/res/version.manifest", 
+    "version" : "1.0.0", 
+    "groupVersions" : {
+        "1" : "1.0.1",
+        "2" : "1.0.2",
+        "3" : "1.1.0"
+    },
+    "engineVersion" : "3.12", 
+    "assets" : { 
+    	"update1" : {
+        	"path" : "src/app.zip",
+           	"md5" : "D7698389FD1CA121DCD896035D67687C", 
+            "compressed" : true ,
+            "group" : "1" 
+        },
+        "update2" : {
+        	"path" : "res/HelloWorld.png",
+           	"md5" : "F478AEFE9AE7023BC8A2A0681DE12A40", 
+            "group" : "2" 
+        },
+        "update3" : {
+        	"path" : "src/app.js",
+           	"md5" : "73366F2CECDB9333B0D206A973C63EC8", 
+            "group" : "2" 
+        },
+        "update4" : {
+        	"path" : "src/app.js",
+           	"md5" : "E10ACF1AFB42981CEB5255D5C0B8879A", 
+            "group" : "3" 
+        },
+        "update5" : {
+        	"path" : "res/HelloTest.png",
+           	"md5" : "F478AEFE9AE7023BC8A2A0681DE12A40", 
+            "group" : "3" 
+        }
+    },
+
+    "searchPaths" : [ 
+    ] 
+}

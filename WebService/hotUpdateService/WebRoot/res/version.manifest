@@ -1,0 +1,12 @@
+{ 
+    "packageUrl" : "http://192.168.3.139:8080/hotUpdateService/res/", 
+    "remoteManifestUrl" : "http://192.168.3.139:8080/hotUpdateService/res/project.manifest", 
+    "remoteVersionUrl" : "http://192.168.3.139:8080/hotUpdateService/res/version.manifest", 
+    "version" : "1.0.0",
+    "groupVersions" : {
+        "1" : "1.0.1",
+        "2" : "1.0.2",
+        "3" : "1.1.0"
+    }, 
+    "engineVersion" : "3.12" 
+}
